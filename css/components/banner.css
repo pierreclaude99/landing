@@ -1,13 +1,18 @@
 section.banner {
     background-image: url(../../images/Shark.jpg);
-    height: 100vh;
+    height: 50vh;
     display: flex;
     align-items: center;
+    background-size: cover;
+    background-position: center;
 }
 
 .banner h1 {
     color: white;
     font-size: 76px;
+    background: linear-gradient(90deg, rgba(85,189,239,1) 0%, rgba(85,239,196,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .banner p {

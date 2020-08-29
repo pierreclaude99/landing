@@ -13,5 +13,25 @@ a.btn-primary {
 a.btn-primary:hover {
     background: #00b894;
     box-shadow: 0px 0px 18px 0px rgba(85,239,196,0.41);
-    transition: 2s background, 2s box-shadow;
+    transition: 4s background, 2s box-shadow;
+    animation: none;
+}
+
+
+a.btn-primary {
+    box-shadow: 0 0 0 rgba(0,176,255, 1);
+    animation: pulse 2s infinite;
+}
+
+@-webkit-keyframes pulse{
+0% {
+}
+70% {
+    -moz-box-shadow: 0px 0px 18px 0px rgba(85,239,196,0.70);
+    box-shadow: 0px 0px 18px 0px rgba(85,239,196,0.70);
+}
+100% {
+    -moz-box-shadow: 0px 0px 0px 0px rgba(85,239,196,0.70);
+    box-shadow: 0px 0px 0px 0px rgba(85,239,196,0.70);
+}
 }
