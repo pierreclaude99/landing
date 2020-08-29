@@ -1,0 +1,110 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Importing all components file */
+@import url("components/button.css");
+@import url("components/img.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+
+
+/* Utilities */
+* {
+margin: 0px;
+}
+
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+h2{
+  font-size: 32px;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.pb-50 {
+  padding-bottom: 50px;
+}
+
+.pt-50 {
+  padding-top: 50px;
+}
+
+.center-txt {
+  text-align: center;
+}
+
+.txt-color-secondary {
+  color: #0F4C81;
+}
+
+/* Container! */
+
+.container {
+    width: 1140px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+@media screen and (max-width: 576px){
+.container {
+    width: 100%;
+    padding: 0px;
+}
+}
+
+
+footer {
+  background: #F5F5F5;
+  padding: 50px;
+}
+
+footer ul{
+    text-align: center;
+    padding-left: 0px;
+}
+
+
+footer ul li {
+    list-style-type: none;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin: 0px 20px;
+}
+
+footer ul li a {
+    color: #0F4C81;
+    font-size: 28px;
+}
+
+footer ul li a:hover{
+  color: #55efc4;
+  transition: 2s background, 2s box-shadow;
+}
+

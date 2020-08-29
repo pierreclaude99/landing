@@ -1,0 +1,39 @@
+section.banner {
+    background-image: url(../../images/Shark.jpg);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.banner h1 {
+    color: white;
+    font-size: 76px;
+}
+
+.banner p {
+    color: #ffffffb5;
+    font-size: 27px;
+}
+
+a.btn-primary {
+    color: white;
+    text-decoration: none;
+    background: #55efc4;
+    font-size: 14px;
+    line-height: 18px;
+    padding: 15px 45px;
+    border-radius: 30px;
+    text-transform: uppercase;
+}
+
+
+@media screen and (max-width: 576px){
+  .banner-info {
+    padding: 30px;
+}
+.banner h1 {
+    color: white;
+    font-size: 40px;
+}
+}
+
